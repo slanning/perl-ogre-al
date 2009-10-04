@@ -1,8 +1,9 @@
 Changes.txt
 MANIFEST			This list of files
-META.yml                                 Module meta-data (added by MakeMaker)
 Makefile.PL
+OLD_INSTALL
 README.txt
+ogreal-r130.diff
 typemap
 examples/README.txt
 examples/basic.pl
