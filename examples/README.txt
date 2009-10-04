@@ -1,9 +1,5 @@
 This directory contains examples of using Ogre::AL.
 
-[not ready to read yet]
-
-
-
 To run the examples, you need to have Ogre and OIS installed.
 
 You also need (at least) two resource-related files:
@@ -36,6 +32,7 @@ Here are brief descriptions of the examples.
 They are each put in a single file, though they would normally
 be put in several files. There may be more information
 at the top of each file.
+Note: these run for me but when you exit they crash.
 
 - basic.pl : port of the Basic demo in the OgreAL distribution,
   shows how to stop and start sounds, and how the sounds are
