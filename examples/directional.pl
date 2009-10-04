@@ -142,7 +142,7 @@ sub frameStarted {
 
     # move camera
     # Quaternion * Vector3 * Real   =  fancy!
-    $self->{mCamNode}->translate($self->{mPitchNode}->getWorldOrientation * $self->{mDirection} * $evt->timeSinceLastFrame);
+    $self->{mCamNode}->translate($self->{mPitchNode}->_getDerivedOrientation * $self->{mDirection} * $evt->timeSinceLastFrame);
 
     # update stats
     my $om = Ogre::OverlayManager->getSingletonPtr();

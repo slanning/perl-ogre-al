@@ -235,7 +235,7 @@ sub frameStarted {
     $self->{pitch} = 0;
 
     # move camera
-    $self->{mCamNode}->translate($self->{mPitchNode}->getWorldOrientation * $self->{mDirection} * $evt->timeSinceLastFrame);
+    $self->{mCamNode}->translate($self->{mPitchNode}->_getDerivedOrientation * $self->{mDirection} * $evt->timeSinceLastFrame);
     $self->{carNode}->yaw(Ogre::Degree->new(-100 * $evt->timeSinceLastFrame));
     $self->{soundManager}->getSound("BusSound")->setVelocity($self->{carNode}->getOrientation->zAxis * 100);
 
