@@ -32,7 +32,7 @@ Here are brief descriptions of the examples.
 They are each put in a single file, though they would normally
 be put in several files. There may be more information
 at the top of each file.
-Note: these run for me but when you exit they crash.
+Note: these run for me but when exiting they crash.
 
 - basic.pl : port of the Basic demo in the OgreAL distribution,
   shows how to stop and start sounds, and how the sounds are
@@ -45,3 +45,7 @@ Note: these run for me but when you exit they crash.
   a car going in a circle (the doppler effect doesn't seem to work for me
   though, not sure if it's just my drivers or what)
   Note: this requires Ogre::BetaGUI.
+
+- multichannel.pl : port of the MultiChannel demo in the OgreAL distribution,
+  just plays an .ogg file from left and right speakers
+

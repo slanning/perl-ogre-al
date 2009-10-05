@@ -2,6 +2,9 @@ MODULE = Ogre::AL     PACKAGE = Ogre::AL::Sound
 
 ## constructors are protected, so not wrappable
 
+
+## xxx: need to add addSoundFinishedHandler and addSoundLoopedHandler (callbacks)
+
 bool
 Sound::play()
 
@@ -188,3 +191,4 @@ Sound::getBoundingRadius()
 
 ## ogre 1.5
 ## void visitRenderables(Ogre::Renderable::Visitor* visitor, bool debugRenderables = false)
+

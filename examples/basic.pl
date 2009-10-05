@@ -19,7 +19,7 @@ package DeviceListener;
 use strict;
 use warnings;
 
-use Ogre 0.35;
+use Ogre 0.39;
 use Ogre::Degree;
 use Ogre::Vector3;
 use Ogre::WindowEventUtilities;
@@ -27,7 +27,7 @@ use Ogre::WindowEventUtilities;
 use Ogre::AL;
 use Ogre::AL::SoundManager;
 
-use OIS 0.04;
+use OIS 0.05;
 use OIS::InputManager;
 use OIS::Keyboard qw(:KeyCode);
 use OIS::Mouse qw(:MouseButtonID);
