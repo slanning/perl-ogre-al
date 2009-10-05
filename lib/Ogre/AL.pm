@@ -7,7 +7,7 @@ use warnings;
 require DynaLoader;
 our @ISA = qw(DynaLoader);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 # use all files under lib/Ogre/AL/ here
