@@ -9,6 +9,7 @@ examples/README.txt
 examples/basic.pl
 examples/directional.pl
 examples/doppler.pl
+examples/multichannel.pl
 examples/resources.cfg
 lib/Ogre/AL.pm
 lib/Ogre/AL/Listener.pm
