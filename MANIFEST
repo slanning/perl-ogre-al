@@ -21,3 +21,4 @@ xs/Listener.xs
 xs/Sound.xs
 xs/SoundManager.xs
 t/000_use.t
+META.yml                                 Module meta-data (added by MakeMaker)
